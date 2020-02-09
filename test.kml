@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+ <kml xmlns="http://earth.google.com/kml/2.2">
+ <Document>
+ <name>GE2ADT</name>
+ <Placemark><name>21</name><description>GE2ADT Route</description><Point><coordinates>-74.61453,40.47307,0</coordinates></Point></Placemark>
+ <Placemark><name>22</name><description>GE2ADT Route</description><Point><coordinates>-74.614564,40.472985,0</coordinates></Point></Placemark>
+ <Placemark><name>23</name><description>GE2ADT Route</description><Point><coordinates>-74.614661,40.472743,0</coordinates></Point></Placemark>
+ <Placemark><name>24</name><description>GE2ADT Route</description><Point><coordinates>-74.614784,40.472387,0</coordinates></Point></Placemark>
+ <Placemark><name>25</name><description>GE2ADT Route</description><Point><coordinates>-74.615058,40.471677,0</coordinates></Point></Placemark>
+ <Placemark><name>26</name><description>GE2ADT Route</description><Point><coordinates>-74.615168,40.471369,0</coordinates></Point></Placemark>
+ <Placemark><name>27</name><description>GE2ADT Route</description><Point><coordinates>-74.615289,40.471028,0</coordinates></Point></Placemark>
+ </Document>
+ </kml>
