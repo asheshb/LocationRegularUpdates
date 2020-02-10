@@ -43,12 +43,8 @@ class MainActivity : AppCompatActivity() {
         start_location_updates.setOnClickListener {
             location_updates.text = ""
             locationUpdating = true
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) ==
-                PackageManager.PERMISSION_GRANTED) {
-                startLocationUpdates()
-            } else {
-                requestLocationPermission()
-            }
+
+            startLocationUpdates()
         }
 
         stop_location_updates.setOnClickListener {
@@ -62,6 +58,7 @@ class MainActivity : AppCompatActivity() {
         locationCallback = object : LocationCallback() {
             override fun onLocationResult(locationResult: LocationResult) {
                 super.onLocationResult(locationResult)
+
                 val currentLocation = locationResult.lastLocation
                 val lastUpdateTime = DateFormat.getTimeInstance().format(Date())
                 location_updates.append(getString(R.string.location_info,
